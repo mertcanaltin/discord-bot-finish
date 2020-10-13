@@ -14,7 +14,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('Bot sürümü: v' + ayarlar.surum + ' Yapımcı: BK YAZILIM  **STARKTOM**\n\n_**BOTU EKLEMEK İÇİN LİNK:**_\n\nhttps://discordapp.com/oauth2/authorize?client_id=495497803129159680&scope=bot&permissions=214695884 \n_**Linkler:**_\n\n**BK YAZILIM** sunucusunun davet linki: https://discord.gg/7meFh7Z \n\n**:copyright: 2018 [BK] Yazılım**');
+    .setDescription('Bot sürümü: v' + ayarlar.surum + ' Yapımcı: mecaltin ');
     return message.author.sendEmbed(pingozel)
 };
 
